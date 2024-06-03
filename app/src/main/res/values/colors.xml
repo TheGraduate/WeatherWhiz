@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="header_background">#EFEFEF</color>
+    <color name="header_text">#000000</color>
+    <color name="background">#FEF7FF</color>
+    <color name="violet">#c77dff</color>
+    <color name="dark_violet">#7b2cbf</color>
+    <color name="dark_dark_violet">#6750A4</color>
+
+    <color name="status_bar_color_light">#FFFFFF</color>
+    <color name="status_bar_color_dark">#000000</color>
+
+</resources>

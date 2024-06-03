@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="city_text_size">16dp</dimen>
+    <dimen name="header_height">40dp</dimen>
+    <dimen name="header_width">40dp</dimen>
+    <dimen name="header_text_size">24dp</dimen>
+
+    <dimen name="status_bar_height">48dp</dimen>
+    <dimen name="status_bar_width">48dp</dimen>
+
+    <dimen name="search_field_height">56dp</dimen>
+
+    <dimen name="margin_between_retry_btn_and_error_text">42dp</dimen>
+
+    <dimen name="margin_between_temp_text_and_top_display">40dp</dimen>
+
+    <dimen name="margin_between_header_and_left_display">8dp</dimen>
+    <dimen name="margin_between_header_and_top_display">16dp</dimen>
+    <dimen name="city_list_item_height">56dp</dimen>
+    <dimen name="city_item_touchable_height">40dp</dimen>
+
+    <dimen name="retry_btn_width">120dp</dimen>
+
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjo0MTk2ODg=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="e04bddce-652e-4291-958d-5a4c88548547" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="00497700-7e7c-473b-9e69-694332218ac8" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="93dd5ad9-1fb4-4ced-bd40-5536012a12f0" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="f86639fe-94d0-4447-b2e0-f5f9e12f8e89" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="88a1e424-cbbc-4d14-9297-ecc73b6a625e" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="7ed18ccc-6bd5-409b-aab6-dd19e0f85e63" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="c36bea97-a072-4918-a7de-8a42e0c48274" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="f7f40f9c-f444-4c1c-8f52-f8f8682a379d" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="89341675-1626-4dde-a8aa-121b1b86f942" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="98bb6591-84c6-4539-8ac1-fbeb001d1bfd" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="1703c6fd-982c-4159-9a2d-671bbdc7a0b8" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="оцени smell code всех классов" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="В предоставленных файлах `ExampleUnitTest.kt` и `ExampleInstrumentedTest.kt` нет серьезных проблем с кодом (code smells), но есть несколько моментов, которые можно улучшить:&#10;&#10;1. **Неинформативные названия тестов**&#10;   Названия тестов `addition_isCorrect` и `useAppContext` не очень информативны и не описывают, что именно тестируется. Лучше использовать более описательные названия, чтобы было понятно, какой функционал проверяется в каждом тесте.&#10;&#10;2. **Отсутствие комментариев**&#10;   Хотя тесты должны быть достаточно понятными сами по себе, комментарии могут помочь другим разработчикам лучше понять цель и контекст теста.&#10;&#10;3. **Магические числа**&#10;   В тесте `addition_isCorrect` используются &quot;магические числа&quot; (2 и 4), которые могут быть непонятны для других разработчиков. Лучше использовать константы с описательными названиями или объяснить значения в комментариях.&#10;&#10;4. **Отсутствие дополнительных проверок**&#10;   Тесты проверяют только один сценарий. Было бы полезно добавить дополнительные тесты для проверки граничных случаев, негативных сценариев и т.д.&#10;&#10;5. **Отсутствие организации тестов**&#10;   Тесты не сгруппированы по функциональности или области тестирования. Лучше организовать тесты в соответствующие классы или пакеты для лучшей структуры и поддержки.&#10;&#10;Хотя эти проблемы не являются критическими, их устранение может улучшить качество кода, читаемость и поддерживаемость тестов." />
+                    </message>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="оцени smell code всех классов" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Рассмотрим каждый класс и потенциальные проблемы с кодом (code smells):&#10;&#10;1. **CityScrollListener.kt**:&#10;   - Нет очевидных проблем с кодом.&#10;&#10;2. **WeatherFragment.kt**:&#10;   - Нет очевидных проблемых с кодом.&#10;&#10;3. **MainActivity.kt**:&#10;   - Закомментированный код (`enableEdgeToEdge()`, `setContentView(R.layout.activity_main)`, `ViewCompat.setOnApplyWindowInsetsListener`). Лучше удалить неиспользуемый код.&#10;&#10;4. **CityListFragment.kt**:&#10;   - Нет очевидных проблем с кодом.&#10;&#10;5. **WeatherViewModel.kt**:&#10;   - Нет очевидных проблем с кодом.&#10;&#10;6. **CityDeserializer.kt**:&#10;   - Использование `?.asString ?: &quot;&quot;` и `?.asString?.takeIf { it.isNotEmpty() } ?: &quot;0.0&quot;` может затруднить чтение кода. Лучше разбить на отдельные выражения или использовать расширяющие функции.&#10;&#10;7. **CityListViewModel.kt**:&#10;   - Нет очевидных проблем с кодом.&#10;&#10;8. **CityAdapter.kt**:&#10;   - Использование `Log.d` для отладки. Лучше удалить или заменить на более подходящий механизм логирования.&#10;   - Магические числа `TYPE_HEADER` и `TYPE_CITY`. Лучше использовать константы с описательными названиями.&#10;&#10;9. **ErrorFragment.kt**:&#10;   - Закомментированный код (`parentFragmentManager.popBackStack()`, `childFragmentManager.popBackStack()`). Лучше удалить неиспользуемый код.&#10;&#10;10. **StickyHeaderItemDecoration.kt**:&#10;    - Закомментированный код (`val childCount = parent.childCount`, `val adapter = parent.adapter ?: return`). Лучше удалить неиспользуемый код.&#10;    - Незавершенный цикл `for`. Возможно, это незавершенная функциональность.&#10;&#10;В целом, код выглядит достаточно чистым и следует принципам чистого кода. Основные проблемы связаны с закомментированным кодом, магическими числами и незавершенной функциональностью в `StickyHeaderItemDecoration.kt`." />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-02T03:30:25.5855461" />
+              </chat>
+              <chat>
+                <internalId value="6d1b03d4-95f5-4ddc-abfe-a25fd73f8dc0" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="8a110368-cff5-49a7-9f1e-10c412af0388" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="8244f74d-f2da-4be8-ad5e-430e8777bc87" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="3aa1ba32-a075-4e64-b7ae-7d6ff5c81c08" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="60c5f700-e043-446a-bedb-efcda1524178" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="8ca08dca-8e6f-44fd-b575-a7ef24b87956" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="d317a9fb-781d-4571-9cc5-d7930aa7e5ed" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="2e564037-a751-4d3a-ba26-aef24c9401b6" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="92923b8a-232a-40b6-a603-3534afd2a151" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="86fd8b41-cb26-4e99-8ae0-01c132ed897a" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="43b027a9-73cd-43d8-8463-e7d3d7ae1ce7" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="2be843ac-d408-458f-a22a-43f5495c8663" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>

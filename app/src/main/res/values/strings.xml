@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherWhiz</string>
+
+    <string name="error_message_text">Произошла ошибка</string>
+    <string name="retry_button_text">Обновить</string>
+    <string name="search_hint_text">Москва</string>
+    <string name="temperature_sample_text">23°C</string>
+    <string name="city_search_sample_text">Москва</string>
+    <string name="city_name_text">Город</string>
+</resources>
